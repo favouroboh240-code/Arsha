@@ -459,6 +459,8 @@ header ul li .active {
   width: 30%;
   box-shadow: 30px 50px 60px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
+  position: relative;
+  padding: 10px;
 }
 .work-process .process .process1:hover {
   transform: translateY(-10px);
@@ -492,7 +494,10 @@ header ul li .active {
   color: white;
   background-color: #0dcaf0;
   line-height: 50px;
-  margin-top: -50px;
+  position: absolute;
+  top: 46%;
+  left: 0;
+  right: 0;
 }
 .work-process .process .process1 h3 {
   margin: 10px 0;
@@ -510,6 +515,12 @@ header ul li .active {
   }
   .work-process .process .process1 {
     width: 100%;
+    position: relative;
+  }
+  .work-process .process .process1 span {
+    position: absolute;
+    top: 36%;
+    right: 0;
   }
 }
 .call {
@@ -567,6 +578,7 @@ header ul li .active {
   }
   .call .call-to-action .left {
     width: 90%;
+    text-align: center;
   }
   .call .call-to-action .right {
     width: 100%;
@@ -640,6 +652,10 @@ header ul li .active {
   }
   .portfolio .port .port-images {
     width: 90%;
+    margin: auto;
+  }
+  .portfolio .port .port-images img {
+    margin-bottom: 20px;
   }
 }
 .team {
